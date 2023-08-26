@@ -10,7 +10,9 @@ function Header() {
       <nav className="navbar">
         <div className="navbar-logo">
           <img src={logo} alt="Logo" />
-          <span className="navbar-name">FurryFriends Essential</span>
+          <Link to="/">
+            <span className="navbar-name">FurryFriends Essential</span>
+          </Link>
         </div>
 
         <div className="navbar-search">
